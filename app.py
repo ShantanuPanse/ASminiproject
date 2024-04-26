@@ -50,4 +50,4 @@ def handle_large_file_error(e):
     return redirect(url_for('failure'))
 
 if __name__ == '__main__':
-    app.run(debug=False,host='0.0.0.0')
+    app.run(debug=False)
